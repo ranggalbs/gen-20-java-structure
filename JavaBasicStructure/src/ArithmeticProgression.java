@@ -18,7 +18,7 @@ public class ArithmeticProgression {
         selisihAngka = sn.nextInt();
 
         for (int i = 1; i <= sukuN; i++){
-            totalAngka = sukuN/2 * (2 * sukuPertama + (sukuN - 1) * selisihAngka );
+            totalAngka = sukuN/2 * (2 * sukuPertama + (sukuN - 1) * selisihAngka ); // Rumus untuk mencari jumlah deret
         }
         return totalAngka;
     }
